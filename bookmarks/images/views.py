@@ -30,6 +30,7 @@ def image_detail(request, id, slug):
     return render(request, 'images/image/detail.html', {'section': 'images', 'image': image})
 
 
+
 def image_like(request):
     image_id = request.POST.get('id')
     action = request.POST.get('action')
