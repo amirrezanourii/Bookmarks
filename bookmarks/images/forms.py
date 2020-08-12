@@ -5,6 +5,8 @@ from django.core.files.base import ContentFile
 from django.utils.text import slugify
 
 
+
+
 class ImageCreateForm(forms.ModelForm):
     class Meta:
         model = Image
